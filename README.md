@@ -28,6 +28,8 @@ Hex Notebook
 - Out of 500 orders placed, 220 customers used coupons
 - According to analysis, the overwhelming majority of purchases were made by male customers. However, when I explored customer data further, I discovered that six customers in the dataset are male and only one is female, which makes this a skewed analysis.
 
+
 ### Visualization on Gender and Product Trends:
-<img width="792" height="612" alt="image" src="https://github.com/user-attachments/assets/013b5bad-bc7a-4281-9b07-b702f81e6723" />
+<img width="1980" height="1162" alt="image" src="https://github.com/user-attachments/assets/a1f5a21c-8252-4fa2-a85a-47f60872d68e" />
+
 
