@@ -29,3 +29,5 @@ Hex Notebook
 - According to analysis, the overwhelming majority of purchases were made by male customers. However, when I explored customer data further, I discovered that six customers in the dataset are male and only one is female, which makes this a skewed analysis.
 
 ### Visualization on Gender and Product Trends:
+<img width="792" height="612" alt="image" src="https://github.com/user-attachments/assets/013b5bad-bc7a-4281-9b07-b702f81e6723" />
+
