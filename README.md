@@ -12,9 +12,9 @@ For this analysis, I was given two datasets: one listing all orders placed, and 
 4. What products do we sell?
 5. Can you sort all orders by date, starting with the most recent?
 6. Can you list all orders starting with the earliest date, and within each date, sort the products alphabetically?
-
-### Insights I Wanted to Find Out
-1. How many orders were placed using a coupon?
+7. How many orders were placed using a coupon?
+8. What percentage of total orders did each product comprise?
+9. Do you notice any trends between customer gender and products ordered?
 
 ### Methodology
 SQL
@@ -24,6 +24,8 @@ Hex Notebook
 - There were 500 unique orders placed with this company between August 1 and August 7, 2023
 - All orders were placed by the same seven customers
 - The company sells keyboards, laptops, computer mice, monitors, and webcams
+- Each product comprised 20% of total orders, or 100 orders each
 - Out of 500 orders placed, 220 customers used coupons
+- According to analysis, the overwhelming majority of purchases were made by male customers. However, when I explored customer data further, I discovered that six customers in the dataset are male and only one is female, which makes this a skewed analysis.
 
-There were some great insights uncovered and I'm excited to continue digging through these datasets to give recommendations to this company to increase sales. 
+### Visualization on Gender and Product Trends:
