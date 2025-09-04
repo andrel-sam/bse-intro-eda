@@ -40,3 +40,13 @@ from
 	"orders.csv"
 order by
 	order_date, product_name;
+
+--How many customers used a coupon to place their orders?
+select
+    count(*),
+from
+    "orders.csv"
+group by
+    coupon
+having
+    coupon is not null;
