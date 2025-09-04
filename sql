@@ -50,3 +50,26 @@ group by
     coupon
 having
     coupon is not null;
+
+
+--What percentage of all orders does each product comprise?
+select
+--number of orders for each product
+ count(case when product_name = 'Laptop' then order_id end) as laptop,
+ count(case when product_name = 'Monitor' then order_id end) as monitor,
+ count(case when product_name = 'Mouse' then order_id end) as mouse,
+ count(case when product_name = 'Keyboard' then order_id end) as keyboard,
+ count(case when product_name = 'Webcam' then order_id end) as webcam,
+ 
+ --total orders
+ count(*) as total_orders,
+ 
+ --calculates the percentage of all orders that contain each product type
+ laptop * 100 / total_orders as perc_laptop,
+ monitor * 100 / total_orders as perc_monitor,
+ mouse * 100 / total_orders as perc_mouse,
+ keyboard * 100 / total_orders as perc_keyboard,
+ webcam * 100 / total_orders as perc_webcam,
+	
+from
+    "orders.csv";
